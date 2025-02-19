@@ -27,6 +27,4 @@ public class LinkedListStack {
             System.out.println(listIterator.next());
         }
     }
-
-
 }

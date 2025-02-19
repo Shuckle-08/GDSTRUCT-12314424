@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args){
-        ArrayStack playerStack = new ArrayStack(10);
+        LinkedListStack playerStack = new LinkedListStack();
         playerStack.push(new Player(1,"Saitama", 999));
         playerStack.push((new Player(2, "Deku", 100)));
         playerStack.push((new Player(3, "Saiki. K.", 500)));
